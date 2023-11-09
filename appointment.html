@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/image/logo.png">
+    <title>VMWT</title>
+</head>
+
+<body>
+    <!-- Scripts -->
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+
+    <!-- Header -->
+    <section class="sticky-top bg-accent-color-1">
+        <div class="r-container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="logo-container">
+                        <img src="image/logo.png" alt="" class="img-fluid">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </button>
+                    <div class="collapse p-lg-0 px-2 py-3 navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="appointment.html">Appointment</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <a class="nav-link " aria-current="page" href="therapist.html">Our Therapist</a>
+                                    <a class="nav-link" aria-current="page" href="">Our Services</a>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="faq.html">FAQ</a>
+                            </li>
+
+                        </ul>
+                        <div>
+                            <div class="d-flex flex-row align-items-center gap-3 text-white">
+                                <span class="fs-2"><i class="fa-solid fa-phone"></i></span>
+                                <div class="d-flex flex-column">
+                                    <span>Call Us</span>
+                                    <span>+123-234-1234</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Of Header -->
+
+    <main>
+        <!-- Banner -->
+        <section class="section position-relative" style="background-image: url(image/banner.jpg);">
+            <div class="image-overlay"></div>
+            <div class="r-container position-relative h-100" style="z-index: 2;">
+                <div class="d-flex flex-column gap-3">
+                    <h3 class="accent-color font-1 fw-semibold">Appointment</h3>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Appointment</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-3 text-center mob-left">
+                    <h6 class="fw-semibold font-1 accent-color-1 ls-2">BOOKING</h6>
+                    <h3 class="accent-color font-1 fw-semibold">Make An Appointment</h3>
+                    <p class="font-2 fw-light mx-auto" style="max-width: 912px;">
+                        Your journey to improved health and well-being begins with a simple step – making an appointment
+                        with our dedicated team of healthcare professionals. We are here to guide you through the
+                        process, answer your questions, and ensure that your healthcare experience is personalized to
+                        your unique needs.
+                    </p>
+                    <h5>Why Choose to Make an Appointment:</h5>
+                    <ul>
+                        <li><strong>Personalized Care:</strong> Your health needs are unique, and our consultations and
+                            treatments are
+                            tailored specifically for you.</li>
+                        <li>
+                            <strong>Expert Guidance:</strong> Our experienced healthcare professionals provide the
+                            knowledge and support you need.
+                        </li>
+                        <li><strong>Personalized Care:</strong> Your health needs are unique, and our consultations and
+                            treatments are
+                            tailored specifically for you.</li>
+                        <li> <strong>Expert Guidance:</strong> Our experienced healthcare professionals provide the
+                            knowledge and support
+                            you need.</li>
+                        <li><strong>Customized Planning:</strong> Work with us to create a healthcare plan that aligns
+                            with your goals
+                            and ensures the best possible outcomes.</li>
+                        <li><strong>Peace of Mind:</strong> We're here to address your concerns and provide the
+                            information you need to
+                            make informed decisions about your health.</li>
+                    </ul>
+                    <div>
+                        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                            <div id="liveToast" class="toast success_msg_appointment bg-dark-transparent text-white"
+                                role="alert" aria-live="assertive" aria-atomic="true">
+                                <div class="d-flex">
+                                    <div class="toast-body">
+                                        Your Appointment Message Send Successfully!.
+                                    </div>
+                                    <button type="button" class="btn me-2 m-auto text-white" data-bs-dismiss="toast"
+                                        aria-label="Close">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="d-flex flex-column h-100 justify-content-center w-100 needs-validation form"
+                            novalidate>
+                            <input type="text" name="action" value="appointment" hidden>
+                            <div class="mb-3">
+                                <input type="text" class="form-control py-3 px-4" name="name" id="name"
+                                    placeholder="Name" required>
+                                <div class="invalid-feedback">
+                                    The field is required.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control py-3 px-4" name="phone" id="phone"
+                                    placeholder="Phone" required>
+                                <div class="invalid-feedback">
+                                    The field is required.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control py-3 px-4" name="email" id="email"
+                                    placeholder="Email" required>
+                                <div class="invalid-feedback">
+                                    The field is required.
+                                </div>
+                            </div>
+                            <div class="row row-cols-1 row-cols-lg-2">
+                                <div class="col mb-3">
+                                    <select name="service" class="form-select py-3 px-4"
+                                        aria-label="Default select example">
+                                        <option selected>Select Services</option>
+                                        <option value="Chiropractic Care">Chiropractic Care</option>
+                                        <option value="Acupunctur">Acupunctur</option>
+                                        <option value="Message Therapy">Message Therapy</option>
+                                        <option value="Sports Chiropractic">Sports Chiropractic</option>
+                                        <option value="Laser Therapy">Laser Therapy</option>
+                                        <option value="Pediatric Chiropractic">Pediatric Chiropractic</option>
+                                    </select>
+                                </div>
+                                <div class="col mb-3">
+                                    <input name="date" type="date" class="form-control py-3 px-4" id="subject"
+                                        placeholder="Subject" required>
+                                    <div class="invalid-feedback">
+                                        The field is required.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3" style="text-align: start !important;">
+                                <label for="file">Additional documents</label>
+                                <input type="file" class="form-control py-3 px-4" id="file" required multiple>
+                                <div class="invalid-feedback">
+                                    The field is required.
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="submit" class="btn button submit_appointment py-3">
+                                    MAKE APPOINTMENT
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <!-- Our Patient Review -->
+        <section class="section bg-color-2">
+            <div class="r-container">
+                <div class="d-flex flex-lg-row flex-column-reverse">
+                    <div class="col col-lg-5 mb-3">
+                        <div class="d-flex flex-column gap-3">
+                            <h3 class="accent-color font-1 fw-semibold fs-1">Our Patient Review</h3>
+                            <p class="font-2 fw-light mx-auto" style="max-width: 912px;">
+                                We invite you to delve into the experiences of those who've chosen VMWT
+                                for their healthcare journey. Their stories reflect our commitment to exceptional care
+                                and positive outcomes. Your well-being is our priority, and we look forward to being a
+                                part of your success story.
+                            </p>
+                            <div class="overflow-hidden outer-margin">
+                                <div class="swiper">
+                                    <!-- Additional required wrapper -->
+                                    <div class="swiper-wrapper">
+                                        <!-- Slides -->
+                                        <div class="swiper-slide">
+                                            <div class="d-flex flex-column bg-accent-color rounded-4 p-5 text-white">
+                                                <h1><i class="fa-solid fa-quote-right"></i></h1>
+                                                <p class="text-gray mb-4 fst-italic font-1">
+                                                    "Curabitur accumsan felis in dui placerat lobortis. Pellentesque et
+                                                    malesuada orci, quis pretium neque. Aenean accumsan sodales tortor,
+                                                    porta tempor nunc efficitur quis. Nunc sit amet magna ac dui aliquet
+                                                    euismod nec vitae nisi."</p>
+                                                <div class="d-flex flex-column flex-grow-1">
+                                                    <h6 class="font-2 lh-1">Kim Esmeralda</h6>
+                                                    <span class="text-gray">Gym Instructor</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="d-flex flex-column bg-accent-color rounded-4 p-5 text-white">
+                                                <h1><i class="fa-solid fa-quote-right"></i></h1>
+                                                <p class="text-gray mb-4 fst-italic font-1">
+                                                    "Curabitur accumsan felis in dui placerat lobortis. Pellentesque et
+                                                    malesuada orci, quis pretium neque. Aenean accumsan sodales tortor,
+                                                    porta tempor nunc efficitur quis. Nunc sit amet magna ac dui aliquet
+                                                    euismod nec vitae nisi."</p>
+                                                <div class="d-flex flex-column flex-grow-1">
+                                                    <h6 class="font-2 lh-1">Michael Granger</h6>
+                                                    <span class="text-gray">Football Player </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="d-flex flex-column bg-accent-color rounded-4 p-5 text-white">
+                                                <h1><i class="fa-solid fa-quote-right"></i></h1>
+                                                <p class="text-gray mb-4 fst-italic font-1">
+                                                    "Curabitur accumsan felis in dui placerat lobortis. Pellentesque et
+                                                    malesuada orci, quis pretium neque. Aenean accumsan sodales tortor,
+                                                    porta tempor nunc efficitur quis. Nunc sit amet magna ac dui aliquet
+                                                    euismod nec vitae nisi."</p>
+                                                <div class="d-flex flex-column flex-grow-1">
+                                                    <h6 class="font-2 lh-1">Jason Rando</h6>
+                                                    <span class="text-gray">Construction Worker</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-7 mb-3">
+                        <a data-fslightbox="gallery">
+                            <img src="image/reviews.jpg" alt="" class="img-fluid rounded-4">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <!-- HOW WE WORK -->
+        <section class="section">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-3 text-center">
+                    <h6 class="fw-semibold font-1 accent-color-1 ls-2">HOW WE WORK</h6>
+                    <h3 class="accent-color font-1 fw-semibold">Stages of Consultation</h3>
+                    <p class="font-2 fw-light mx-auto" style="max-width: 912px;">
+                        At VMWT, we follow a meticulous and patient-centered approach to ensure your
+                        health and well-being receive the utmost care and attention. Our consultation process is broken
+                        down into several key stages to guarantee a comprehensive and effective healthcare experience
+                    </p>
+                    <div class="row row-cols-1 row-cols-lg-4 mt-3">
+                        <div class="col mb-3">
+                            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                                <div class="border-3 border rounded-3 p-3 mb-3"
+                                    style="--bs-border-color: var(--accent-color-1);">
+                                    <img src="image/notebook.png" alt="" class="img-fluid" width="40" height="40">
+                                </div>
+                                <h6 class="font-1 m-0">Make an Appointment</h6>
+                                <p>
+                                    Start your journey by scheduling your personalized healthcare consultation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                                <div class="border-3 border rounded-3 p-3 mb-3"
+                                    style="--bs-border-color: var(--accent-color-1);">
+                                    <img src="image/consulting.png" alt="" class="img-fluid" width="40" height="40">
+                                </div>
+                                <h6 class="font-1 m-0">Consultation</h6>
+                                <p>
+                                    Receive expert guidance tailored to your unique health needs and goals.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                                <div class="border-3 border rounded-3 p-3 mb-3"
+                                    style="--bs-border-color: var(--accent-color-1);">
+                                    <img src="image/back.png" alt="" class="img-fluid" width="40" height="40">
+                                </div>
+                                <h6 class="font-1 m-0">Therapy</h6>
+                                <p>
+                                    Experience top-quality treatments with our dedicated healthcare professionals.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                                <div class="border-3 border rounded-3 p-3 mb-3"
+                                    style="--bs-border-color: var(--accent-color-1);">
+                                    <img src="image/reviews.png" alt="" class="img-fluid" width="40" height="40">
+                                </div>
+                                <h6 class="font-1 m-0">Satisfied Review</h6>
+                                <p>
+                                    Share your feedback, ensuring your experience meets your expectations and
+                                    satisfaction.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <footer>
+        <section class="bg-accent-color-1">
+            <div class="r-container section border-bottom">
+                <div class="row row-cols-1 row-cols-lg-2 w-100">
+                    <div class="col col-lg-4">
+                        <div class="d-flex flex-column gap-3 text-white">
+                            <div class="logo-container">
+                                <img src="image/logo.png" alt="" class="img-fluid">
+                            </div>
+                            <p>
+                                Our main focus is building healthcare network between Germany and UAE to help the
+                                patients from both countries to receive the best medical treatment 
+                            </p>
+                            <div class="social-container">
+                                <a href="https://www.facebook.com" class="social-item">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="https://www.twitter.com" class="social-item">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="https://www.youtube.com" class="social-item">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="https://www.instagram.com" class="social-item">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="d-flex flex-column gap-3 text-white">
+                            <!-- <div class="col"> -->
+                            <h5 class="font-2 mb-3">Quick Links</h5>
+                            <ul class="list gap-2">
+                                <li>
+                                    <a href="" class="d-flex flex-row gap-3 align-items-center link">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex flex-row gap-3 align-items-center link">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex flex-row gap-3 align-items-center link">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        Appointment
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex flex-row gap-3 align-items-center link">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex flex-row gap-3 align-items-center link">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        Blog
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="d-flex flex-column gap-3 text-white">
+                            <!-- <div class="col"> -->
+                            <h5 class="font-2 mb-3">Information</h5>
+                            <div class="d-flex flex-column gap-3">
+                                <div class="d-flex flex-row align-items-center gap-3 text-white">
+                                    <span class="fs-2"><i class="fa-solid fa-phone"></i></span>
+                                    <div class="d-flex flex-column">
+                                        <span>Phone</span>
+                                        <span>+123-234-1234</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row align-items-center gap-3 text-white">
+                                    <span class="fs-2">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </span>
+                                    <div class="d-flex flex-column">
+                                        <span>Email</span>
+                                        <span>info@VMWT.com</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row align-items-center gap-3 text-white">
+                                    <span class="fs-2">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </span>
+                                    <div class="d-flex flex-column">
+                                        <span>Address</span>
+                                        <span>Schweizer Str., 60594 Frankfurt am Main, Germany</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-3 text-white text-center">
+                <p class="m-0">Copyright 2023 © All Right Reserved</p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="js/vendor/fslightbox.js"></script>
+    <script src="js/masonry.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/image/logo.png">
+    <title>VMWT</title>
+</head>
+
+<body>
+    <!-- Scripts -->
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+
+    <!-- Header -->
+    <section class="sticky-top bg-accent-color-1">
+        <div class="r-container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="logo-container">
+                        <img src="image/logo.png" alt="" class="img-fluid">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </button>
+                    <div class="collapse p-lg-0 px-2 py-3 navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="appointment.html">Appointment</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <a class="nav-link " aria-current="page" href="therapist.html">Our Therapist</a>
+                                    <a class="nav-link" aria-current="page" href="">Our Services</a>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="faq.html">FAQ</a>
+                            </li>
+                        
+                        </ul>
+                        <div>
+                            <div class="d-flex flex-row align-items-center gap-3 text-white">
+                                <span class="fs-2"><i class="fa-solid fa-phone"></i></span>
+                                <div class="d-flex flex-column">
+                                    <span>Call Us</span>
+                                    <span>+123-234-1234</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Of Header -->
+
+    <main>
+        <!-- Banner -->
+        <section class="section position-relative" style="background-image: url(image/im6.jpg); height: 90vh;">
+            <div class="image-overlay"></div>
+            <div class="r-container position-relative h-100" style="z-index: 2;">
+                <div class="row row-cols-lg-2 row-cols-1 w-100 h-100">
+                    <div class="col h-100">
+                        <div class="d-flex flex-column h-100 justify-content-center gap-3">
+                            <!-- <h6 class="fw-semibold font-1 accent-color-1 ls-2"></h6> -->
+                            <h2 class="accent-color font-1 fw-semibold">WELCOME TO VMWT</h2>
+                            <p class="font-1">
+                                Health and well-being tourism company
+                            </p>
+                            <div class="d-flex flex-row gap-5">
+                                <a href="appointment.html"
+                                    class="btn button font-1 ls-2 fw-semibold fs-7 py-3 px-4">MAKE
+                                    APPOINTMENT</a>
+                                <!-- <button type="button" class="btn request-loader" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    <i class="fa-solid fa-play"></i>
+                                </button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade bg-overlay" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content bg-dark-color">
+                        <iframe class="ifr-video" src="https://www.youtube.com/embed/FK2RaJ1EfA8?autoplay=1"
+                            frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-5 position-relative" style="margin-top: -100px;">
+            <div class="r-container">
+                <div class="w-100 mx-auto row row-cols-1 row-cols-lg-3 px-3 px-lg-0">
+                    <div class="col"></div>
+                    <div class="col mb-3">
+                        <div class="bg-accent-color-1 rounded-3 p-3  text-white text-center d-flex flex-column">
+                            <h2><i class="fa-solid fa-award"></i></h2>
+                            <h5 class="font-2">Satisfaction Guarantee</h5>
+                            <p>Ensuring your health and happiness.</p>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="bg-accent-color rounded-3 p-3  text-white text-center d-flex flex-column">
+                            <h2><i class="fa-solid fa-user-doctor"></i></h2>
+                            <h5 class="font-2">Professional Therapist</h5>
+                            <p>Highly trained wellness experts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT TUDEBON -->
+        <section class="section">
+            <div class="r-container">
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col mb-3">
+                        <div class="position-relative ps-5">
+                            <a data-fslightbox="gallery">
+                                <img src="image/im3.jpg" alt="" class="img-fluid rounded-4">
+                            </a>
+                            <div
+                                class="position-absolute top-0 start-0 bg-accent-color rounded-4 p-4 text-white text-center mt-5">
+                                <h3 class="font-1 fw-semibold m-0">15<sup class="fw-normal">Th</sup></h3>
+                                <span class="font-1">Years of Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="d-flex flex-column gap-2 h-100 justify-content-center px-3">
+                            <h6 class="fw-semibold font-1 accent-color-1 ls-2">ABOUT VMWT</h6>
+                            <h3 class="accent-color font-1 fw-semibold">Providing a High Level of Care</h3>
+                            <p class="font-2 fw-light">
+                                Our main focus is building healthcare network between Germany and UAE to help the
+                                patients from both countries to receive the best medical treatment through cooperation
+                                with world class medical institutions and assist patients during the treatment journey
+                                and afrter.
+                            </p>
+                            <div class="row row-cols-1 row-cols-lg-2 mb-4">
+                                <div class="col">
+                                    <div class="d-flex flex-row align-items-center gap-3">
+                                        <img src="image/icon-eye.png" alt="" class="img-fluid" width="50" height="50">
+                                        <div class="d-flex flex-column justify-content-center">
+                                            <h5 class="m-0">Our Vision</h5>
+                                            <p class="m-0">Building a healthcare network between Germany and the UAE for
+                                                top-notch patient care and support.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex flex-row align-items-center gap-3">
+                                        <img src="image/icon-bullseye.png" alt="" class="img-fluid" width="50"
+                                            height="50">
+                                        <div class="d-flex flex-column justify-content-center">
+                                            <h5 class="m-0">Our Mission</h5>
+                                            <p class="m-0">Our mission is to establish a healthcare network connecting
+                                                Germany and the UAE, facilitating top-tier medical treatment and
+                                                comprehensive patient support.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#" class="btn button font-1 ls-2 fw-semibold fs-7 py-3 px-4">READ
+                                    MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="section bg-color-2">
+            <div class="r-container">
+                <div class="d-flex flex-column text-center gap-2">
+                    <h6 class="fw-semibold font-1 accent-color-1 ls-2">SERVICES</h6>
+                    <h3 class="accent-color font-1 fw-semibold">Conditions We Can Handle</h3>
+                    <p class="font-2 fw-light mx-auto" style="max-width: 912px;">
+                        Maecenas dictum fringilla nisi ac malesuada. Donec ac quam non diam elementum ultricies. In hac
+                        habitasse platea dictumst. Nullam eu elit sed metus convallis lobortis. Cras a iaculis eros.
+                        Phasellus at lectus viverra, sagittis erat quis.
+                    </p>
+                    <div class="w-100 row row-cols-1 row-cols-lg-3">
+                        <div class="col mb-3">
+                            <div class="rounded-3 border border-3 p-5 d-flex flex-column justify-content-center align-items-center gap-3"
+                                style="--bs-border-color: var(--accent-color-1);">
+                                <img src="image/icon1.png" alt="" class="img-fluid" width="80" height="80">
+                                <h5>Chiropractic Care</h5>
+                                <p>Suspendisse nec magna ac magna sagittis tristique etiam sagittis.</p>
+                                <a href="service_detail.html" class="btn font-1 fw-semibold accent-color-1">READ MORE <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="rounded-3 border border-3 p-5 d-flex flex-column justify-content-center align-items-center gap-3"
+                                style="--bs-border-color: var(--accent-color-1);">
+                                <img src="image/icon2.png" alt="" class="img-fluid" width="80" height="80">
+                                <h5>Acupunctur</h5>
+                                <p>Suspendisse nec magna ac magna sagittis tristique etiam sagittis.</p>
+                                <a href="service_detail.html" class="btn font-1 fw-semibold accent-color-1">READ MORE <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="rounded-3 border border-3 p-5 d-flex flex-column justify-content-center align-items-center gap-3"
+                                style="--bs-border-color: var(--accent-color-1);">
+                                <img src="image/icon3.png" alt="" class="img-fluid" width="80" height="80">
+                                <h5>Massage Therapy</h5>
+                                <p>Suspendisse nec magna ac magna sagittis tristique etiam sagittis.</p>
+                                <a href="service_detail.html" class="btn font-1 fw-semibold accent-color-1">READ MORE <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="rounded-3 border border-3 p-5 d-flex flex-column justify-content-center align-items-center gap-3"
+                                style="--bs-border-color: var(--accent-color-1);">
+                                <img src="image/icon4.png" alt="" class="img-fluid" width="80" height="80">
+                                <h5>Sports Chiropractic</h5>
+                                <p>Suspendisse nec magna ac magna sagittis tristique etiam sagittis.</p>
+                                <a href="service_detail.html" class="btn font-1 fw-semibold accent-color-1">READ MORE <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="rounded-3 border border-3 p-5 d-flex flex-column justify-content-center align-items-center gap-3"
+                                style="--bs-border-color: var(--accent-color-1);">
+                                <img src="image/icon5.png" alt="" class="img-fluid" width="80" height="80">
+                                <h5>Laser Therapy</h5>
+                                <p>Suspendisse nec magna ac magna sagittis tristique etiam sagittis.</p>
+                                <a href="service_detail.html" class="btn font-1 fw-semibold accent-color-1">READ MORE <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="rounded-3 border border-3 p-5 d-flex flex-column justify-content-center align-items-center gap-3"
+                                style="--bs-border-color: var(--accent-color-1);">
+                                <img src="image/icon6.png" alt="" class="img-fluid" width="80" height="80">
+                                <h5>Pediatric Chiropractic</h5>
+                                <p>Suspendisse nec magna ac magna sagittis tristique etiam sagittis.</p>
+                                <a href="service_detail.html" class="btn font-1 fw-semibold accent-color-1">READ MORE <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PARTNER -->
+        <section class="section">
+            <div class="r-container">
+                <div class="w-100 row row-cols-1 row-cols-lg-2">
+                    <div class="col col-lg-5">
+                        <div class="d-flex flex-column gap-3">
+                            <h6 class="fw-semibold font-1 accent-color-1 ls-2">PARTNER</h6>
+                            <h3 class="accent-color font-1 fw-semibold">Partners & Associations</h3>
+                            <p class="font-2 fw-light mx-auto my-0" style="max-width: 912px;">
+                                Fostering partnerships and collaborations to enhance healthcare quality and
+                                accessibility.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col col-lg-7 d-flex align-items-center">
+                        <div class="row row-cols-1 row-cols-lg-3">
+                            <div class="col">
+                                <img src="image/logo-ipsum-1.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col">
+                                <img src="image/logo-ipsum-2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col">
+                                <img src="image/logo-ipsum-3.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col">
+                                <img src="image/logo-ipsum-4.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col">
+                                <img src="image/logo-ipsum-5.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col">
+                                <img src="image/logo-ipsum-6.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section position-relative bg-attach-fixed" style="background-image: url(image/im7.jpg);">
+            <div class="image-overlay-2"></div>
+            <div class="r-container position-relative mb-5" style="z-index: 2;">
+                <div class="w-100 row row-cols-1 row-cols-lg-4 text-center text-white">
+                    <div class="col mb-3">
+                        <div class="d-flex flex-column">
+                            <h3><i class="fa-solid fa-users"></i></h3>
+                            <h3 class="font-1 fw-semibold m-0">1,200<sup class="fw-normal">+</sup></h3>
+                            <span class="font-1">Happy Patients</span>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="d-flex flex-column">
+                            <h3><i class="fa-solid fa-award"></i></h3>
+                            <h3 class="font-1 fw-semibold m-0">15<sup class="fw-normal">Th</sup></h3>
+                            <span class="font-1">Years of Experience</span>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="d-flex flex-column">
+                            <h3><i class="fa-solid fa-user-doctor"></i></h3>
+                            <h3 class="font-1 fw-semibold m-0">250<sup class="fw-normal">+</sup></h3>
+                            <span class="font-1">Therapist & Staff</span>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="d-flex flex-column">
+                            <h3><i class="fa-solid fa-hospital"></i></h3>
+                            <h3 class="font-1 fw-semibold m-0">75<sup class="fw-normal">+</sup></h3>
+                            <span class="font-1">Branch Clinic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US -->
+        <section class="pb-5 position-relative" style="margin-top: -100px;">
+            <div class="r-container">
+                <div class="rounded-3 bg-color-2 p-5">
+                    <div class="row row-cols-1 row-cols-lg-2">
+                        <div class="col mb-3">
+                            <a data-fslightbox="gallery">
+                                <img src="image/im5.jpg" alt="" class="rounded-3 img-fluid">
+                            </a>
+                            <div class="d-flex flex-column gap-3 mt-3">
+                                <div class="r-progress w-100" style="--value:95;">
+                                    <span class="accent-color font-2">Experience</span>
+                                    <div class="progress-container">
+                                        <div class="r-progress-bar percentage-label">
+                                            <div class="progress-value"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="r-progress w-100" style="--value:87;">
+                                    <span class="accent-color font-2">Chiropractic</span>
+                                    <div class="progress-container">
+                                        <div class="r-progress-bar percentage-label">
+                                            <div class="progress-value"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="r-progress w-100" style="--value:96;">
+                                    <span class="accent-color font-2">Therapist</span>
+                                    <div class="progress-container">
+                                        <div class="r-progress-bar percentage-label">
+                                            <div class="progress-value"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="d-flex flex-column gap-3">
+                                <h6 class="fw-semibold font-1 accent-color-1 ls-2">WHY CHOOSE US</h6>
+                                <h3 class="accent-color font-1 fw-semibold">Many Solution Under One Roof</h3>
+                                <p class="font-2 fw-light mx-auto my-0" style="max-width: 912px;">
+                                    Unveiling the Benefits of Our All-Encompassing Healthcare Ecosystem – Your Gateway
+                                    to Diverse and Holistic Medical Solutions
+                                </p>
+                                <div class="d-flex flex-column gap-2">
+                                    <div class="d-flex flex-row gap-2 font-2 align-items-center">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                        Comprehensive Care: Access a wide spectrum of medical solutions and services
+                                        under one roof.
+                                    </div>
+                                    <div class="d-flex flex-row gap-2 font-2 align-items-center">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                        Holistic Approach: Experience healthcare that addresses your physical,
+                                        emotional, and mental well-being.
+                                    </div>
+                                    <div class="d-flex flex-row gap-2 font-2 align-items-center">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                        Global Partnerships: Collaborate with world-class medical institutions for the
+                                        best treatment.
+                                    </div>
+                                    <div class="d-flex flex-row gap-2 font-2 align-items-center">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                        Patient-Centric Support: We're with you every step of your healthcare journey,
+                                        from start to finish.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOW WE WORK -->
+        <section class="section">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-3 text-center">
+                    <h6 class="fw-semibold font-1 accent-color-1 ls-2">HOW WE WORK</h6>
+                    <h3 class="accent-color font-1 fw-semibold">Stages of Consultation</h3>
+                    <p class="font-2 fw-light mx-auto" style="max-width: 912px;">
+                        At VMWT, we follow a meticulous and patient-centered approach to ensure your
+                        health and well-being receive the utmost care and attention. Our consultation process is broken
+                        down into several key stages to guarantee a comprehensive and effective healthcare experience
+                    </p>
+                    <div class="row row-cols-1 row-cols-lg-4 mt-3">
+                        <div class="col mb-3">
+                            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                                <div class="border-3 border rounded-3 p-3 mb-3"
+                                    style="--bs-border-color: var(--accent-color-1);">
+                                    <img src="image/notebook.png" alt="" class="img-fluid" width="40" height="40">
+                                </div>
+                                <h6 class="font-1 m-0">Make an Appointment</h6>
+                                <p>
+                                    Start your journey by scheduling your personalized healthcare consultation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                                <div class="border-3 border rounded-3 p-3 mb-3"
+                                    style="--bs-border-color: var(--accent-color-1);">
+                                    <img src="image/consulting.png" alt="" class="img-fluid" width="40" height="40">
+                                </div>
+                                <h6 class="font-1 m-0">Consultation</h6>
+                                <p>
+                                    Receive expert guidance tailored to your unique health needs and goals.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                                <div class="border-3 border rounded-3 p-3 mb-3"
+                                    style="--bs-border-color: var(--accent-color-1);">
+                                    <img src="image/back.png" alt="" class="img-fluid" width="40" height="40">
+                                </div>
+                                <h6 class="font-1 m-0">Therapy</h6>
+                                <p>
+                                    Experience top-quality treatments with our dedicated healthcare professionals.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                                <div class="border-3 border rounded-3 p-3 mb-3"
+                                    style="--bs-border-color: var(--accent-color-1);">
+                                    <img src="image/reviews.png" alt="" class="img-fluid" width="40" height="40">
+                                </div>
+                                <h6 class="font-1 m-0">Satisfied Review</h6>
+                                <p>
+                                    Share your feedback, ensuring your experience meets your expectations and
+                                    satisfaction.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Patient Review -->
+
+        <section class="section position-relative bg-attach-fixed" style="background-image: url(image/im8.jpg);">
+            <div class="image-overlay-2"></div>
+            <div class="r-container position-relative" style="z-index: 2;">
+                <div class="d-flex flex-column gap-3 text-white text-center align-items-center">
+                    <h3 class="font-1 fw-semibold" style="font-size: 48px;">Book Your Consultation</h3>
+                    <p class="font-2 fw-light mx-auto" style="max-width: 912px;">
+                        Are you ready to embark on your path to better health and well-being? Booking a consultation
+                        with our experts is your first step. Our team is here to guide you through the process and
+                        ensure that your healthcare journey aligns with your goals and preferences.
+                    </p>
+                    <a class="btn button font-1 ls-2 fw-semibold fs-7 py-3 px-4">
+                        Schedule Consultation</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CHECK OUT OUR BLOG -->
+        <section class="section">
+            <div class="r-container">
+                <div class="d-flex flex-lg-row flex-column-reverse gap-3">
+                    <div class="col col-lg-7">
+                        <div class="row row-cols-1 row-cols-lg-2">
+                            <div class="col">
+                                <div class="card p-3 bg-accent-color-1 rounded-4 with-border-bottom">
+                                    <img src="image/dummy-img-600x400.jpg" class="img-fluid" alt="image">
+                                    <div class="d-flex flex-column gap-3 p-3 text-white">
+                                        <div class="d-flex flex-row gap-4">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <i class="fa-regular fa-calendar"></i>
+                                                October 7, 2023
+                                            </div>
+                                            <div class="d-flex align-items-center gap-2">
+                                                <i class="fa-regular fa-user"></i>
+                                                Author
+                                            </div>
+                                        </div>
+                                        <h6 class="font-1">Neck Pain and Treatment with Chiropractic</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum
+                                            ultrices nisi, at congue sapien lobortis…
+                                        </p>
+                                        <div>
+                                            <a class="btn text-white p-0 font-1 fw-semibold">
+                                                READ MORE
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card p-3 bg-accent-color-1 rounded-4 with-border-bottom">
+                                    <img src="image/dummy-img-600x400.jpg" class="img-fluid" alt="image">
+                                    <div class="d-flex flex-column gap-3 p-3 text-white">
+                                        <div class="d-flex flex-row gap-4">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <i class="fa-regular fa-calendar"></i>
+                                                October 7, 2023
+                                            </div>
+                                            <div class="d-flex align-items-center gap-2">
+                                                <i class="fa-regular fa-user"></i>
+                                                Author
+                                            </div>
+                                        </div>
+                                        <h6 class="font-1">What Your Back Pain is Trying to Tell You</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum
+                                            ultrices nisi, at congue sapien lobortis…
+                                        </p>
+                                        <div>
+                                            <a class="btn text-white p-0 font-1 fw-semibold">
+                                                READ MORE
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-5">
+                        <div class="d-flex flex-column gap-3 ps-lg-4">
+                            <h6 class="fw-semibold font-1 accent-color-1 ls-2">CHECK OUT OUR BLOG</h6>
+                            <h3 class="accent-color font-1 fw-semibold">Blog & Articles</h3>
+                            <p class="font-2 fw-light mx-auto" style="max-width: 912px;">
+                                Stay informed and inspired with our curated collection of blog posts and articles on
+                                health and well-being. Our blog is a valuable resource for anyone looking to enhance
+                                their understanding of various health topics, discover wellness tips, and stay
+                                up-to-date with the latest advancements in the healthcare industry.
+                            </p>
+                            <div>
+                                <a class="btn button font-1 ls-2 fw-semibold fs-7 py-3 px-4">VIEW
+                                    ALL</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="bg-accent-color-1">
+            <div class="r-container section border-bottom">
+                <div class="row row-cols-1 row-cols-lg-2 w-100">
+                    <div class="col col-lg-4">
+                        <div class="d-flex flex-column gap-3 text-white">
+                            <div class="logo-container">
+                                <img src="image/logo.png" alt="" class="img-fluid">
+                            </div>
+                            <p>
+                                Our main focus is building healthcare network between Germany and UAE to help the
+                                patients from both countries to receive the best medical treatment 
+                            </p>
+                            <div class="social-container">
+                                <a href="https://www.facebook.com" class="social-item">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="https://www.twitter.com" class="social-item">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="https://www.youtube.com" class="social-item">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="https://www.instagram.com" class="social-item">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="d-flex flex-column gap-3 text-white">
+                            <!-- <div class="col"> -->
+                                <h5 class="font-2 mb-3">Quick Links</h5>
+                                <ul class="list gap-2">
+                                    <li>
+                                        <a href="" class="d-flex flex-row gap-3 align-items-center link">
+                                            <i class="fa-regular fa-circle-dot"></i>
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="d-flex flex-row gap-3 align-items-center link">
+                                            <i class="fa-regular fa-circle-dot"></i>
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="d-flex flex-row gap-3 align-items-center link">
+                                            <i class="fa-regular fa-circle-dot"></i>
+                                            Appointment
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="d-flex flex-row gap-3 align-items-center link">
+                                            <i class="fa-regular fa-circle-dot"></i>
+                                            FAQ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="d-flex flex-row gap-3 align-items-center link">
+                                            <i class="fa-regular fa-circle-dot"></i>
+                                            Blog
+                                        </a>
+                                    </li>
+                                </ul>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="d-flex flex-column gap-3 text-white">
+                            <!-- <div class="col"> -->
+                                <h5 class="font-2 mb-3">Information</h5>
+                                <div class="d-flex flex-column gap-3">
+                                    <div class="d-flex flex-row align-items-center gap-3 text-white">
+                                        <span class="fs-2"><i class="fa-solid fa-phone"></i></span>
+                                        <div class="d-flex flex-column">
+                                            <span>Phone</span>
+                                            <span>+123-234-1234</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center gap-3 text-white">
+                                        <span class="fs-2">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </span>
+                                        <div class="d-flex flex-column">
+                                            <span>Email</span>
+                                            <span>info@VMWT.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center gap-3 text-white">
+                                        <span class="fs-2">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                        </span>
+                                        <div class="d-flex flex-column">
+                                            <span>Address</span>
+                                            <span>Schweizer Str., 60594 Frankfurt am Main, Germany</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-3 text-white text-center">
+                <p class="m-0">Copyright 2023 © All Right Reserved</p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="js/vendor/fslightbox.js"></script>
+    <script src="js/masonry.js"></script>
+</body>
+
+</html>
